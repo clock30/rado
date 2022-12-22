@@ -1,0 +1,580 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+ margin: 0px;
+ padding: 0px;
+ text-indent: 0px;
+ border: none;
+ outline: none;
+ color: white;
+}
+
+html
+{
+ height: 100%;
+ width: 100%;
+ background-color: black;
+}
+
+body
+{
+ height: 100%;
+ width: 100%;
+}
+
+div.body
+{
+ position: relative;
+ min-height: 100%;
+ width: 100%;
+}
+
+div.template
+{
+ position: relative;
+ width: 864px;
+ height: 100%;
+ margin: 0px auto;
+}
+
+/*header*/
+div.header
+{
+ margin: 0px auto;
+ width: 864px;
+ height: 90px;
+}
+
+img.logo
+{
+ margin: 18px 0px 0px -1px;
+}
+
+/*menu*/
+div.menu
+{
+ position: relative;
+ margin: 1px auto 2px auto;
+ width: 864px;
+ height: 34px;
+}
+
+div.menu_a
+{
+ height: 34px;
+ width: 512px;
+ background: url(../img/menu.png) no-repeat;
+}
+
+div.menu_a a
+{
+ display: block;
+ height: 100%;
+ text-indent: -14000px;
+ float: left;
+ text-decoration: none;
+}
+
+a.catalog
+{
+ width: 51px;
+ margin: 0px 48px 0px 0px;
+}
+
+a.quality
+{
+ width: 103px;
+ margin: 0px 48px 0px 0px;
+}
+
+a.payment
+{
+ width: 127px;
+ margin: 0px 48px 0px 0px;
+}
+
+a.contacts
+{
+ width: 62px;
+ margin: 0px;
+}
+
+div.your_order
+{
+ position: absolute;
+ top: 0px;
+ right: 0px;
+ height: 34px;
+}
+
+img.your_order
+{
+ float: left;
+}
+
+a.your_order
+{
+ display: block;
+ margin: 9px 0px 0px 110px;
+ font: 14px 'Arial';
+ text-decoration: underline;
+}
+
+div.line
+{
+ position: absolute;
+ top: 90px;
+ left: 0px;
+ height: 1px;
+ width: 100%;
+ background: url(../img/line.jpg) repeat-x;
+}
+
+div.line2
+{
+ position: absolute;
+ top: 126px;
+ left: 0px;
+ height: 1px;
+ width: 100%;
+ background: url(../img/line.jpg) repeat-x;
+}
+
+/*middle*/
+div.middle
+{
+ position: relative;
+ padding: 0px 0px 121px 0px;
+ width: 864px;
+}
+
+img.clock_rado_main
+{
+ position: absolute;
+ top: 15px;
+ left: 435px;
+}
+
+div.rado_integral_jubile
+{
+ position: absolute;
+ top: 370px;
+ left: 435px;
+ background: url(../img/rado_view.png) center right no-repeat;
+}
+
+a.rado_integral_jubile
+{
+ display: block;
+ text-decoration: none;
+ font: 36px 'Times New Roman';
+ padding: 0px 72px 0px 0px;
+}
+
+p.slogan
+{
+ font: 18px 'Times New Roman';
+ text-align: right;
+}
+
+div.slogan
+{
+ position: absolute;
+ top: 40px;
+ right: 0px;
+}
+
+div.clock_reestr
+{
+ margin: 25px 0px 0px 0px;
+ width: 144px;
+ float: left;
+ clear: both;
+}
+
+div.clock_reestr a
+{
+ font: 12px Arial, Helvetica, sans-serif;
+ text-decoration: none;
+}
+
+div.clock_cataloge
+{
+ float:right;
+ width: 720px;
+ display: inline;
+}
+
+h1.clock_cataloge
+{
+ font: 36px 'Times New Roman';
+ text-align: center;
+ margin: 25px 0px 40px 0px;
+}
+
+div.clock
+{
+ width: 144px;
+ height: 200px;
+ float: left;
+ text-align: center;
+}
+
+a.clock_name
+{
+ display: block;
+ font: 10px 'Tahoma';
+ text-decoration: none;
+ margin: 0px 10px;
+ text-align: center;
+}
+
+img.rado_integral
+{
+ margin: 35px 0px 0px 145px;
+}
+
+div.buy
+{
+ float: right;
+ margin: 215px 185px 0px 0px;
+}
+
+input.button
+{
+ margin: 10px 0px 0px 0px;
+ width: 143px;
+ height: 43px;
+ background: url(../img/buttons.png) -286px 0px no-repeat;
+}
+
+input.button:hover
+{
+ background-position: -286px -43px;
+}
+
+p.buy
+{
+ font: 18px 'Times New Roman';
+}
+
+p.price
+{
+ font: 36px 'Times New Roman';
+}
+
+p.clock_cataloge
+{
+ clear: both;
+ margin: 50px 0px 30px 0px;
+ font: 18px 'Times New Roman';
+ text-align: center;
+}
+
+img.order
+{
+ float: right;
+ margin: 0px 0px 0px 10px;
+}
+
+h1.quality_clock
+{
+ font: 36px 'Times New Roman';
+ margin: 25px 0px 20px 0px;
+}
+
+p.quality_clock
+{
+ font: 18px 'Times New Roman';
+ margin: 0px 0px 50px 0px;
+}
+
+div.payment
+{
+ width: 560px;
+ margin: 0px 0px 0px 0px;
+}
+
+p.payment
+{
+ color: white;
+ font: 16px 'Times New Roman';
+ margin: 0px 0px 50px 0px;
+}
+
+a.payment_order
+{
+ text-decoration: underline;
+ color: #f6da74;
+}
+
+h2.payment_question
+{
+ font: 20px 'Times New Roman';
+ margin: 0px 0px 35px 0px;
+}
+
+p.payment_question
+{
+ font: 14px 'Times New Roman'; 
+ margin: 0px 0px 35px 0px;
+}
+
+form#contacts
+{
+ width: 480px;
+}
+
+div.contacts
+{
+ margin: 0px 0px 30px 0px;
+ position: relative;
+}
+
+img.code
+{
+ position: absolute;
+ top: 10px;
+ left: 320px;
+}
+
+input#submit
+{
+ display: block;
+ margin: 0px 0px 50px 0px;
+ width: 143px;
+ height: 43px;
+ background: url(../img/submit.png) no-repeat;
+}
+
+p.contacts
+{
+ font: 14px 'Times New Roman';
+ margin: 0px 0px 5px 0px;
+}
+
+input.contacts, textarea.contacts
+{
+ display: block;
+ background-color: white;
+ color: black;
+ font: 14px 'Times New Roman';
+ overflow: auto;
+}
+
+input.contacts
+{
+ height: 20px;
+}
+
+table.coast
+{
+ border-spacing: 0px;
+ text-align: center;
+ vertical-align: middle;
+ margin: 0px 0px 40px 0px;
+}
+
+table.coast tbody td
+{
+ padding: 15px 30px;
+ font: 14px 'Arial';
+ border: 1px dotted #202020;
+}
+
+table.coast thead td
+{
+ padding: 0px 30px;
+ font: 14px 'Arial';
+ border: 1px dotted #202020;
+ height: 56px;
+ background: url(../img/thead.png) repeat-x;
+}
+
+input.number
+{
+ width: 70px;
+ text-align: center;
+ background: url(../img/thead.png) repeat;
+ padding: 10px 0px;
+ margin: auto;
+}
+
+table.order_total
+{
+ width: 100%;
+ border-spacing: 0px;
+ text-align: center;
+ vertical-align: middle;
+ margin: 10px 0px 40px 0px;
+}
+
+table.order_total tbody td
+{
+ padding: 30px 20px;
+ font: 14px 'Arial';
+ border: 1px dotted #202020;
+}
+
+table.order_total thead td
+{
+ padding: 0px 20px;
+ font: 14px 'Arial';
+ border: 1px dotted #202020;
+ height: 56px;
+ background: url(../img/thead.png) repeat-x;
+}
+
+input.back
+{
+ display: block;
+ float: right;
+ width: 143px;
+ height: 43px;
+ background: url(../img/buttons.png) -429px 0px no-repeat;
+ margin: 0px 8px;
+}
+
+input.back:hover
+{
+ background-position: -429px -43px;
+}
+
+input.calculator
+{
+ display: block;
+ float: right;
+ width: 143px;
+ height: 43px;
+ background: url(../img/buttons.png) 0px 0px no-repeat;
+ margin: 0px 8px;
+}
+
+input.calculator:hover
+{
+ background-position: 0px -43px;
+}
+
+input.okay
+{
+ display: block;
+ float: right;
+ width: 143px;
+ height: 43px;
+ background: url(../img/buttons.png) -143px 0px no-repeat;
+ margin: 0px 200px 0px 8px;
+}
+
+input.okay:hover
+{
+ background-position: -143px -43px;
+}
+
+div.buttons
+{
+ margin: 0px auto 50px auto;
+}
+
+input.order_total
+{
+ display: block;
+ float: left;
+ clear: both;
+}
+
+label.order_total
+{
+ display: block;
+ font: 14px 'Times New Roman';
+ margin: 0px 0px 5px 0px;
+}
+
+form#order_total
+{
+ margin: 0px 0px 50px 0px;
+}
+
+img.m6
+{
+ position: absolute;
+ top: 23px;
+ left: 320px;
+}
+
+div.order_contact
+{
+ margin: 30px 0px 30px 0px;
+}
+
+div.order_total
+{
+ position: relative;
+ margin: 0px 0px 10px 0px;
+}
+
+input.buy_clock
+{
+ width: 143px;
+ height: 43px;
+ background: url(../img/buttons.png) -143px 0px no-repeat;
+}
+
+input.buy_clock:hover
+{
+ background-position: -143px -43px;
+}
+
+.cursor
+{
+ cursor: pointer;
+}
+
+div.clear
+{
+ width: 100%;
+ height: 1px;
+ clear: both;
+}
+
+div.down
+{
+ position: absolute;
+ bottom: 108px;
+ left: 0px;
+ width: 100%;
+ height: 13px;
+ background: url(../img/line_down.png) repeat-x;
+}
+
+
+/*footer*/
+div.foot
+{
+ position: absolute;
+ bottom: 0px;
+ left: 0px;
+ width: 100%;
+ height: 108px;
+}
+
+div.footer
+{
+ margin: 0px auto;
+ width: 864px;
+ height: 108px;
+}
+
+div.copyright
+{
+ position: relative;
+}
+
+p.copyright
+{
+ position: absolute;
+ top: 24px;
+ left: 0px;
+ font: 14px 'Times New Roman';
+}
